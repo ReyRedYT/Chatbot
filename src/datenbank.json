@@ -1,0 +1,8 @@
+{
+    "fallback": [
+        "Das weiß ich leider nicht. Frag mich etwas über deutsche Politik oder Geschichte!",
+        "Interessante Frage! Dazu habe ich leider keine Infos.",
+        "Das kann ich dir leider nicht beantworten. Probiere es mit einem anderen Thema!",
+        "Diese Frage verstehe ich nicht. Kannst du sie anders formulieren?"
+    ]
+}
