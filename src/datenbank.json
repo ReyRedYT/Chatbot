@@ -14,12 +14,25 @@
         "Was geht? Wie kann ich dir helfen?",
         "Na! Was kann ich für dich tun?"
     ],
-    "wie geht es dir": "Mir geht es gut, danke der Nachfrage! Wie kann ich dir helfen?",
+    "wie geht es dir": "Mir geht es gut! Wie geht es dir?",
+    "gut": "Das freut mich zu hören! Wie kann ich dir helfen?",
+    "schlecht": "Das tut mir leid zu hören! Wie kann ich dir helfen?",
     "danke": "Gern geschehen!",
     "tschüss": "Auf Wiedersehen!",
     "fallback": [
         "Das weiß ich leider nicht.",
         "Könntest du die Frage bitte anders formulieren?",
-        "Ich bin mir nicht sicher, wie ich darauf antworten soll."
-    ]
+        "Ich bin mir nicht sicher, wie ich darauf antworten soll.",
+        "Das verstehe ich nicht.",
+        "Tut mir leid, ich habe das nicht verstanden.",
+        "Das habe ich nicht verstanden.",
+        "Das ist mir nicht klar.",
+        "Das kann ich dir leider nicht beantworten."
+    ],
+    "berlin": "Berlin ist die Hauptstadt von Deutschland.",
+    "bundeskanzler": "Der Bundeskanzler von Deutschland ist Olaf Scholz.",
+    "mauerfall": "Der Mauerfall war am 9. November 1989.",
+    "bundespräsident": "Der Bundespräsident von Deutschland ist Frank-Walter Steinmeier.",
+    "bundesländer": "Deutschland hat 16 Bundesländer.",
+    "hauptstadt": "Die Hauptstadt von Deutschland ist Berlin."
 }
