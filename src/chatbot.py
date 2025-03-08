@@ -26,7 +26,7 @@ def chatbot_antwort(eingabe):
 
 if __name__ == "__main__":
     while True:
-        frage = input("Frage mich etwas über deutsche Politik und Geschichte oder stelle eine allgemeine Frage: ")
+        frage = input("Frage mich etwas über den kalten Krieg: ")
         if frage.lower() in ["exit", "quit", "ende"]:
             print("Bis bald!")
             break
