@@ -77,6 +77,11 @@
                     document.querySelector("form").submit();
                 }
             });
+
+            var chatVerlauf = document.querySelector(".chat-verlauf");
+            if (chatVerlauf) {
+                chatVerlauf.scrollTop = chatVerlauf.scrollHeight;
+            }
         });
     </script>
 </head>
