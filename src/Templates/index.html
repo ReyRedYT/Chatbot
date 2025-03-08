@@ -54,6 +54,17 @@
             border-radius: 8px; 
         }
     </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var textarea = document.querySelector("textarea[name='frage']");
+            textarea.addEventListener("keypress", function(event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    document.querySelector("form").submit();
+                }
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="container">
