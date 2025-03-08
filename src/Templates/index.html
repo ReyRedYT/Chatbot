@@ -46,9 +46,23 @@
         button:hover { 
             background-color: #1565c0; 
         }
-        .antwort { 
+        .chat-verlauf { 
             margin-top: 20px; 
-            padding: 15px; 
+            max-height: 300px; 
+            overflow-y: auto; 
+            background-color: #f1f1f1; 
+            padding: 10px; 
+            border-radius: 10px; 
+        }
+        .nachricht { 
+            margin-bottom: 10px; 
+        }
+        .frage { 
+            font-weight: bold; 
+        }
+        .antwort { 
+            margin-top: 5px; 
+            padding: 10px; 
             background-color: #e3f2fd; 
             border-left: 5px solid #42a5f5; 
             border-radius: 8px; 
@@ -68,16 +82,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>Kalter Krieg - Chatbot</h1>
+        <h1>Dein KI-Experte zum kalten Krieg</h1>
         <form method="POST">
             <textarea name="frage" rows="3" placeholder="Stelle eine Frage zum kalten Krieg..."></textarea>
             <button type="submit">Frage stellen</button>
         </form>
-        {% if antwort %}
-            <div class="antwort">
-                <strong>Antwort:</strong> {{ antwort }}
-            </div>
-        {% endif %}
+        <div class="chat-verlauf">
+            {% for eintrag in verlauf %}
+                <div class="nachricht">
+                    <div class="frage">Frage: {{ eintrag.frage }}</div>
+                    <div class="antwort">Antwort: {{ eintrag.antwort }}</div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </body>
 </html>
