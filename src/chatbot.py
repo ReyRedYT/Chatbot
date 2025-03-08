@@ -10,12 +10,17 @@ datenbank = lade_datenbank()
 
 def chatbot_antwort(eingabe):
     eingabe = eingabe.lower()
+    begruessungen = ["hallo", "hi", "moin", "guten tag", "was geht", "servus", "hey",
+                     "hallochen", "na", "tag", "guten Abend", "moin moin", "guten Morgen"]
     for schluesselwort in datenbank:
         if schluesselwort in eingabe and schluesselwort != "fallback":
             antwort = datenbank[schluesselwort]
             if isinstance(antwort, list):
                 return random.choice(antwort)
             return antwort
+    for begruessung in begruessungen:
+        if begruessung in eingabe:
+            return random.choice(datenbank["begrüßung"])
     
     return random.choice(datenbank["fallback"])
 
