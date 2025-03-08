@@ -1,25 +1,25 @@
 {
     "begrüßung": [
-        "Hallo! Wie kann ich Ihnen helfen?",
-        "Guten Tag! Was kann ich für Sie tun?",
-        "Hi! Wie kann ich Ihnen behilflich sein?",
-        "Servus! Wie kann ich Ihnen helfen?",
+        "Hallo! Wie kann ich dir helfen?",
+        "Moin! Was kann ich für dich tun?",
+        "Hi! Wie kann ich dir behilflich sein?",
+        "Was geht? Wie kann ich dir helfen?",
         "Grüß dich! Was kann ich für Sie tun?",
-        "Grüß Gott! Wie kann ich Ihnen behilflich sein?",
-        "Hallochen! Wie kann ich Ihnen helfen?",
-        "Hey! Was kann ich für Sie tun?",
-        "Moin moin! Wie kann ich Ihnen behilflich sein?",
-        "Guten Morgen! Wie kann ich Ihnen helfen?",
-        "Guten Abend! Was kann ich für Sie tun?",
-        "Was geht? Wie kann ich Ihnen helfen?",
-        "Na! Was kann ich für Sie tun?"
+        "Grüß Dich! Wie kann ich dir behilflich sein?",
+        "Hallochen! Wie kann ich dir helfen?",
+        "Hey! Was kann ich für dich tun?",
+        "Moin moin! Wie kann ich dir behilflich sein?",
+        "Moin! Wie kann ich dir helfen?",
+        "Wie gehts? Was kann ich für dich tun?",
+        "Was geht? Wie kann ich dir helfen?",
+        "Na! Was kann ich für dich tun?"
     ],
-    "wie geht es dir": "Mir geht es gut, danke der Nachfrage! Wie kann ich Ihnen helfen?",
+    "wie geht es dir": "Mir geht es gut, danke der Nachfrage! Wie kann ich dir helfen?",
     "danke": "Gern geschehen!",
     "tschüss": "Auf Wiedersehen!",
     "fallback": [
         "Das weiß ich leider nicht.",
-        "Können Sie die Frage bitte anders formulieren?",
+        "Könntest du die Frage bitte anders formulieren?",
         "Ich bin mir nicht sicher, wie ich darauf antworten soll."
     ]
 }
