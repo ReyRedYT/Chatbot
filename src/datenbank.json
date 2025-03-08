@@ -1,8 +1,15 @@
 {
+    "begrüßung": [
+        "Hallo! Wie kann ich Ihnen helfen?",
+        "Guten Tag! Was kann ich für Sie tun?",
+        "Hi! Wie kann ich Ihnen behilflich sein?"
+    ],
+    "wie geht es dir": "Mir geht es gut, danke der Nachfrage! Wie kann ich Ihnen helfen?",
+    "danke": "Gern geschehen!",
+    "tschüss": "Auf Wiedersehen!",
     "fallback": [
-        "Das weiß ich leider nicht. Frag mich etwas über deutsche Politik oder Geschichte!",
-        "Interessante Frage! Dazu habe ich leider keine Infos.",
-        "Das kann ich dir leider nicht beantworten. Probiere es mit einem anderen Thema!",
-        "Diese Frage verstehe ich nicht. Kannst du sie anders formulieren?"
+        "Das weiß ich leider nicht.",
+        "Können Sie die Frage bitte anders formulieren?",
+        "Ich bin mir nicht sicher, wie ich darauf antworten soll."
     ]
 }
