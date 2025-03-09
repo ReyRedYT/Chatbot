@@ -14,6 +14,9 @@
         "Was geht? Wie kann ich dir helfen?",
         "Na! Was kann ich für dich tun?"
     ],
+
+
+
     "wie geht es dir": "Mir geht es gut! Wie geht es dir?",
     "gut": "Das freut mich zu hören! Wie kann ich dir helfen?",
     "schlecht": "Das tut mir leid zu hören! Wie kann ich dir helfen?",
@@ -21,16 +24,9 @@
     "tschüss": "Auf Wiedersehen!",
     "wer bist du": "Ich bin dein Experte über den kalten Krieg! Wie kann ich dir helfen?",
     "wer hat dich programmiert": "Ich wurde von Arasp entwickelt!",
-    "fallback": [
-        "Das weiß ich leider nicht.",
-        "Könntest du die Frage bitte anders formulieren?",
-        "Ich bin mir nicht sicher, wie ich darauf antworten soll.",
-        "Das verstehe ich nicht.",
-        "Tut mir leid, ich habe das nicht verstanden.",
-        "Das habe ich nicht verstanden.",
-        "Das ist mir nicht klar.",
-        "Das kann ich dir leider nicht beantworten."
-    ],
+
+
+
     "Was war der Kalte Krieg?": "Der Kalte Krieg war ein ideologischer und geopolitischer Konflikt zwischen den USA und der Sowjetunion, der nach dem Zweiten Weltkrieg begann und bis 1991 andauerte.",
     "Wann begann und endete der Kalte Krieg?": "Er begann etwa 1947 und endete 1991 mit dem Zerfall der Sowjetunion.",
     "Welche ideologischen Unterschiede prägten den Kalten Krieg?": "Die USA standen für Kapitalismus, Demokratie und Marktwirtschaft, während die Sowjetunion den Kommunismus, autoritäre Herrschaft und eine zentral geplante Wirtschaft vertrat.",
@@ -94,6 +90,18 @@
     "Welche wirtschaftlichen Konsequenzen hatte der Kalte Krieg für die beteiligten Länder?": "Hohe Rüstungsausgaben, Wirtschaftssanktionen und politische Instabilitäten führten zu langfristigen wirtschaftlichen Veränderungen in vielen Ländern.",
     "Wie wurden wissenschaftliche Durchbrüche durch den Wettlauf ins All begünstigt?": "Der intensive Wettbewerb im Bereich Raumfahrt führte zu bedeutenden technologischen Innovationen und einem verstärkten Fokus auf Forschung und Entwicklung.",
     "Welche Bedeutung hatte die gegenseitige Überwachung durch Spione und Geheimdienste?": "Ständige Überwachung und Spionage trugen zu einem Klima der Unsicherheit bei und beeinflussten die außenpolitischen Entscheidungen beider Seiten.",
-    "Wie trug der Kalte Krieg zur Entstehung moderner Sicherheitspolitik bei?": "Die Erfahrung eines jahrzehntelangen globalen Konflikts führte zur Entwicklung moderner Sicherheitsstrategien, internationalen Rüstungskontrollabkommen und einem verstärkten Fokus auf diplomatische Konfliktlösung."
+    "Wie trug der Kalte Krieg zur Entstehung moderner Sicherheitspolitik bei?": "Die Erfahrung eines jahrzehntelangen globalen Konflikts führte zur Entwicklung moderner Sicherheitsstrategien, internationalen Rüstungskontrollabkommen und einem verstärkten Fokus auf diplomatische Konfliktlösung.",
 
+    
+
+    "fallback": [
+        "Das weiß ich leider nicht.",
+        "Könntest du die Frage bitte anders formulieren?",
+        "Ich bin mir nicht sicher, wie ich darauf antworten soll.",
+        "Das verstehe ich nicht.",
+        "Tut mir leid, ich habe das nicht verstanden.",
+        "Das habe ich nicht verstanden.",
+        "Das ist mir nicht klar.",
+        "Das kann ich dir leider nicht beantworten."
+    ]
 }
