@@ -18,6 +18,11 @@
 
 
     "wie geht es dir": "Mir geht es gut! Wie geht es dir?",
+    "wie gehts dir" : "Mir geht es gut! Wie geht es dir?",
+    "wie gehts" : "Mir geht es gut! Wie geht es dir?",
+    "wie geht es dir heute": "Mir geht es gut! Wie geht es dir?",
+    "wie gehts dir heute" : "Mir geht es gut! Wie geht es dir?",
+    "wie gehts heute" : "Mir geht es gut! Wie geht es dir?",
     "gut": "Das freut mich zu hören! Wie kann ich dir helfen?",
     "schlecht": "Das tut mir leid zu hören! Wie kann ich dir helfen?",
     "danke": "Gern geschehen!",
