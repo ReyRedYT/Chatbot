@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot: Dein Experte zum kalten Krieg!</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0;
+            height: 100vh;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            background-color: #e3f2fd; 
+        }
+        .container { 
+            width: 100%;
+            max-width: 600px; 
+            background: #ffffff; 
+            padding: 30px; 
+            border-radius: 20px; 
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); 
+        }
+        h1 { 
+            text-align: center; 
+            color: #1565c0;
+            margin-bottom: 20px; 
+        }
+        textarea { 
+            width: 96%; 
+            padding: 10px; 
+            border: 2px solid #64b5f6; 
+            border-radius: 10px; 
+            resize: none;
+        }
+        button { 
+            width: 100%; 
+            padding: 12px; 
+            background-color: #1e88e5; 
+            color: #fff; 
+            border: none; 
+            border-radius: 10px; 
+            cursor: pointer; 
+            transition: background 0.3s;
+        }
+        button:hover { 
+            background-color: #1565c0; 
+        }
+        .chat-verlauf { 
+            margin-top: 20px; 
+            max-height: 300px; 
+            overflow-y: auto; 
+            background-color: #f1f1f1; 
+            padding: 10px; 
+            border-radius: 10px; 
+        }
+        .nachricht { 
+            margin-bottom: 10px; 
+        }
+        .frage { 
+            font-weight: bold; 
+        }
+        .antwort { 
+            margin-top: 5px; 
+            padding: 10px; 
+            background-color: #e3f2fd; 
+            border-left: 5px solid #42a5f5; 
+            border-radius: 8px; 
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var textarea = document.querySelector("textarea[name='frage']");
+            textarea.addEventListener("keypress", function(event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    document.querySelector("form").submit();
+                }
+            });
+
+            var chatVerlauf = document.querySelector(".chat-verlauf");
+            if (chatVerlauf) {
+                chatVerlauf.scrollTop = chatVerlauf.scrollHeight;
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dein KI-Experte zum kalten Krieg</h1>
+        <form method="POST">
+            <textarea name="frage" rows="3" placeholder="Stelle eine Frage zum kalten Krieg..."></textarea>
+            <button type="submit">Frage stellen</button>
+        </form>
+        <div class="chat-verlauf">
+            {% for eintrag in verlauf %}
+                <div class="nachricht">
+                    <div class="frage">Frage: {{ eintrag.frage }}</div>
+                    <div class="antwort">Antwort: {{ eintrag.antwort }}</div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

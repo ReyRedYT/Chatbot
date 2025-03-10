@@ -2,7 +2,7 @@ from google import genai
 
 
 def chatbot():
-    client = genai.Client(api_key="API_KEY")
+    client = genai.Client(api_key="AIzaSyBGHFeyFY9ITA7OkaOJDRrx1rDHZf5gGuA")
     response = client.models.generate_content(
         model="gemini-2.0-flash", contents = question)
     print(response.text)
