@@ -1,10 +1,15 @@
 from google import genai
+from dotenv import load_dotenv
+import os
 import tkinter as tk
 from tkinter import scrolledtext, ttk
 
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+
 # Bestehende Funktion, die die Gemini-API nutzt.
 def chatbot():
-    client = genai.Client(api_key="API_KEY")  # Ersetze "API_KEY" mit deinem echten API-Schlüssel
+    client = genai.Client(api_key=API_KEY)  # Ersetze "API_KEY" mit deinem echten API-Schlüssel
     response = client.models.generate_content(
         model="gemini-2.0-flash", contents=question)
     return response.text
